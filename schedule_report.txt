@@ -1,0 +1,51 @@
+======================================================================
+FAST PESHAWAR - EXAM SCHEDULE REPORT
+======================================================================
+
+OVERVIEW:
+Total Students: 1098
+Total Courses: 71
+Total Slots: 18
+
+A. STUDENTS IN EACH SLOT:
+----------------------------------------------------------------------
+Day 1 Slot 1: 452 students
+Day 1 Slot 2: 427 students
+Day 1 Slot 3: 478 students
+Day 1 Slot 4: 0 students
+Day 1 Slot 5: 411 students
+Day 1 Slot 6: 108 students
+Day 2 Slot 1: 459 students
+Day 2 Slot 2: 68 students
+Day 2 Slot 3: 448 students
+Day 2 Slot 4: 294 students
+Day 2 Slot 5: 285 students
+Day 2 Slot 6: 336 students
+Day 3 Slot 1: 480 students
+Day 3 Slot 2: 235 students
+Day 3 Slot 3: 380 students
+Day 3 Slot 4: 302 students
+Day 3 Slot 5: 249 students
+Day 3 Slot 6: 216 students
+
+B. STUDENTS WITH MULTIPLE PAPERS ON SAME DAY:
+----------------------------------------------------------------------
+3 papers on one day: 230 students
+4 papers on one day: 0 students
+5 papers on one day: 0 students
+6 papers on one day: 0 students
+
+C. STUDENTS WITH CONSECUTIVE PAPERS:
+----------------------------------------------------------------------
+3 consecutive papers: 1 students
+4 consecutive papers: 0 students
+5 consecutive papers: 0 students
+6 consecutive papers: 0 students
+
+APPROACH:
+----------------------------------------------------------------------
+1. Built a conflict graph (courses with common students)
+2. Used greedy graph coloring algorithm
+3. Prioritized courses with more conflicts
+4. Minimized same-day and consecutive exams
+5. Enforced 500 student capacity limit
